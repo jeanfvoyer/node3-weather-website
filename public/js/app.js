@@ -21,7 +21,7 @@ weatherForm.addEventListener('submit', (e) => {
             }else{
                 messageOne.textContent = data.location
                 messageTwo.textContent = data.forecast.weather_descriptions[0]
-                messageThree.textContent = 'Temps ressenti ' + data.forecast.feelslike
+                messageThree.textContent = 'Feels like ' + data.forecast.feelslike
             }
         })
     })
